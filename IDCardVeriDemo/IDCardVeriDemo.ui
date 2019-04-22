@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IDCardVeriDemoClass</class>
+ <widget class="QMainWindow" name="IDCardVeriDemoClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>515</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ArcSoftFace IDCardVeri C++ Demo </string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="labelVideo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelIdcardPic">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>30</y>
+      <width>121</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>210</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>姓名：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>240</y>
+      <width>54</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>身份证号：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelName">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>210</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelSerialNumber">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>240</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="thresholdEdit">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>310</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0.82</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>310</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>阈值：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>360</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>信息：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="msgLabel">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>360</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>labelIdcardPic</zorder>
+   <zorder>label1</zorder>
+   <zorder>label2</zorder>
+   <zorder>labelName</zorder>
+   <zorder>labelSerialNumber</zorder>
+   <zorder>labelVideo</zorder>
+   <zorder>thresholdEdit</zorder>
+   <zorder>label2_2</zorder>
+   <zorder>label2_3</zorder>
+   <zorder>msgLabel</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="IDCardVeriDemo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

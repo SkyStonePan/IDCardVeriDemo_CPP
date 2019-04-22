@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>arcsoft.ico</file>
+    </qresource>
+</RCC>
